@@ -7,7 +7,7 @@ export default function Home() {
     <Card>
       <Card.Img variant='top' src='holder.js/100px180' />
       <Card.Body>
-        <Card.Title>Eric Hoover</Card.Title>
+        <Card.Title>Ramiro Peña</Card.Title>
         <Card.Text>Full Stack Developer</Card.Text>
         <Button variant='primary'>Hire Me Today</Button>
       </Card.Body>

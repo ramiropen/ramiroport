@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 
-import {FaGitHubSquare} 
+
 
 export default function About() {
   const wrapperStyle = {

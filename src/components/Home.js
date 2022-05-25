@@ -9,7 +9,8 @@ export default function Home() {
       <Card.Body>
         <Card.Title>Ramiro Peña</Card.Title>
         <Card.Text>Full Stack Developer</Card.Text>
-        <Button variant='primary'>Hire Me Today</Button>
+        <Button href="public\images\res_test_2.jpg" variant='primary'>Resume</Button> 
+       
       </Card.Body>
     </Card>
   );

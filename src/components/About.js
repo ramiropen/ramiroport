@@ -10,12 +10,12 @@ export default function About() {
   };
 
   return (
-    <div style={wrapperStyle}>
+    <div style={wrapperStyle} id="about">
       <h2>ABOUT</h2>
 
       <Accordion>
         <Accordion.Item eventKey='0'>
-          <Accordion.Header>Values</Accordion.Header>
+          <Accordion.Header>Skills</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -26,7 +26,7 @@ export default function About() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey='1'>
-          <Accordion.Header>Education</Accordion.Header>
+          <Accordion.Header>Work Experience</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -37,7 +37,7 @@ export default function About() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey='2'>
-          <Accordion.Header>Work Experience</Accordion.Header>
+          <Accordion.Header>Education</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud

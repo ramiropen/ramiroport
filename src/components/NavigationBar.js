@@ -14,9 +14,6 @@ export default function NavigationBar() {
 
   return (
     <Navbar bg='dark' variant='dark'>
-
-
-
       <Container class="navContainer">
         <Navbar.Brand href='#'>RAMIRO PENA</Navbar.Brand>
         <Nav className='me-auto'>

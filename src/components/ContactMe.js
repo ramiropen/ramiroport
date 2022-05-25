@@ -9,8 +9,6 @@ export default function ContactMe() {
 
   return (
     <div style={wrapperStyle} id="contact">
-      <h3>CONTACT ME</h3>
-        
         <div class="emailForm">
           <form class="emailTag" action="https://formspree.io/f/xpzbbpkl" method="POST">
            <h3 class="emailH3">GET IN TOUCH</h3> 

@@ -10,8 +10,8 @@ export default function App() {
     <div>
       <NavigationBar />
       <Home />
-      <Projects />
       <About />
+      <Projects />
       <ContactMe />
     </div>
   );

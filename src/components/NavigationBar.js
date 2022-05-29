@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { FaBeer } from 'react-icons/fa';
 
+
 // import { useSelector } from "react-redux"; // gets data from the store
 // import { useDispatch } from "react-redux"; // updates the store data
 // import { changeColor } from "../store/colorStore"; // updates the store data
@@ -13,7 +14,7 @@ export default function NavigationBar() {
     // const color = useSelector((state) => state.colorStore.color); // get initial value from store
 
   return (
-    <Navbar bg='dark' variant='dark'>
+    <Navbar bg='dark' variant='dark' sticky="top" >
       <Container class="navContainer">
         <Navbar.Brand href='#'>RAMIRO PENA</Navbar.Brand>
         <Nav className='me-auto'>
@@ -25,3 +26,4 @@ export default function NavigationBar() {
     </Navbar>
   );
 }
+

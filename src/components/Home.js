@@ -2,8 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
+
+
 export default function Home() {
+  const wrapperStyle = { textAlign: "center", marginTop: "100px" };
+
   return (
+    <div id="home" class="home">
     <Card>
       <Card.Img variant='top' src='holder.js/100px180' />
       <Card.Body>
@@ -13,5 +18,6 @@ export default function Home() {
        
       </Card.Body>
     </Card>
+    </div>
   );
 }

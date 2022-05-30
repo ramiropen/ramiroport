@@ -1,10 +1,65 @@
 /* NAVBAR */
 
+:root {
+    --primary: #219EBC;
+    --red: #023047;
+    --dark: #FB8500;
+    --light: #A8DADC;
+    --accent: #F1FAEE;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: var(--dark);
+    padding: 20px 32px;
+    border-button: 3px solid var(--primary);
+}
+h1 {
+    color: var(--accent);
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: none;
+    flex: 1 1 0%;
+    justify-content:space-around;
+    margin: -20px -16px;
+    display: flex;
+}
+.menu a {
+    color: var(--accent);
+    margin: 10px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+}
+.menu a.is-active, .menu a:hover {
+    background-color: var(--primary);
+}
+
+/* ABOUT SECTION */
+.home {
+    padding-top: 85px;
+}
+
 
 /* PROJECTS */
-
 .proBut1 {
-    background-color: #001660;
     background-color: #ff5361;
     color: white;
     padding: 15px 25px;
@@ -12,6 +67,10 @@
     text-decoration: none;
     display: inline-block;
     border-radius: 15px;
+}
+
+.proBut1 :hover{
+  color: #001660;
 }
 
 

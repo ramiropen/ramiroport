@@ -22,6 +22,7 @@ export default function Projects() {
   return (
     <div style={wrapperStyle} id="projects">
       <h2>PROJECTS</h2>
+      <div class="cards">
       <CardGroup>
         {/* 1ST PROJECT */}
         <Card>
@@ -66,6 +67,7 @@ export default function Projects() {
           </Card.Footer>
         </Card>
       </CardGroup>
+      </div>
     </div>
   );
 }

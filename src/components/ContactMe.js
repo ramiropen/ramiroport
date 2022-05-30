@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Stack from 'react-bootstrap/Stack'
 import { BsLinkedin } from "react-icons/fa";
+import { IconName } from "react-icons/ai";
 
 export default function ContactMe() {
   const wrapperStyle = { textAlign: "center", marginTop: "100px" };
@@ -19,6 +20,8 @@ export default function ContactMe() {
            <button class="emailButton" type="submit">Send Message</button>
           </form> 
         </div>
+       
     </div>
+
   );
 }

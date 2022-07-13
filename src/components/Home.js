@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import Testtesttest from "../assests/Testtesttest.pdf"
+import RESUME from "../assests/RESUME.pdf";
 
 
 
@@ -15,7 +15,7 @@ export default function Home() {
       <Card.Body>
         <Card.Title>Ramiro Peña</Card.Title>
         <Card.Text>Full Stack Developer</Card.Text>
-      <Button href={Testtesttest}>dfg</Button>
+      <Button href={RESUME}>RESUME</Button>
       </Card.Body>
     </Card>
     </div>

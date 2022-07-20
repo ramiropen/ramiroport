@@ -13,7 +13,8 @@ export default function Home() {
     <Card>
       <Card.Img variant='top' src='holder.js/100px180' />
       <Card.Body>
-        <Card.Title>Ramiro Peña</Card.Title>
+        <Card.Title>!!!!Ramiro Peña Cant wait any longer to apply, this portfolio is in the beginning phases!!!!!</Card.Title>npm start
+
         <Card.Text>Full Stack Developer</Card.Text>
       <Button href={RESUME}>RESUME</Button>
       </Card.Body>

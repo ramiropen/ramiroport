@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import RESUME from "../assests/RESUME.pdf";
+import RESUME2 from "../assests/RESUME2.pdf";
 
 
 
@@ -16,7 +16,7 @@ export default function Home() {
         <Card.Title>!!!!Ramiro Peña Cant wait any longer to apply, this portfolio is in the beginning phases!!!!!</Card.Title>npm start
 
         <Card.Text>Full Stack Developer</Card.Text>
-      <Button href={RESUME}>RESUME</Button>
+      <Button href={RESUME2}>RESUME</Button>
       </Card.Body>
     </Card>
     </div>
